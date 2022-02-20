@@ -21,11 +21,11 @@ const Genres = ({
     };
     console.log(genres)
     useEffect(()=>{   
-       // eslint-disable-next-line
         fetchGenres();
         return ()=>{
             setGenres({})
         };
+    // eslint-disable-next-line
     },[]);
   return (
     <div style={{padding:'6px 0'}}>
