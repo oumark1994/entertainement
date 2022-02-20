@@ -2,9 +2,7 @@ import  React,{useEffect} from 'react';
 import Box from '@material-ui/core/Box';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
- import RestoreIcon from '@material-ui/icons/Restore';
- import FavoriteIcon from '@material-ui/icons/Favorite';
- import LocationOnIcon from '@material-ui/icons/LocationOn';
+ 
 import { makeStyles } from '@material-ui/core';
 import { Movie, Search, Tv, Whatshot } from '@material-ui/icons';
 import { useNavigate } from 'react-router-dom';
