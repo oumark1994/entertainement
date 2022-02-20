@@ -22,7 +22,7 @@ const Movies = () => {
     console.log(data)
   }
   useEffect(()=>{
-
+    window.scroll(0, 0);
     fetchMovies();
     // eslint-disable-next-line
   },[page,genreforURL]);
