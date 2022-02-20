@@ -11,7 +11,7 @@ const SingleContent = ({id,poster,title,date,media_type,vote_average}) => {
 <img
         className="poster"
         src={poster ? `${img_300}${poster}` : unavailable } alt={title}
-        alt={title}
+       
       />
       <b className='title'>
         {title}

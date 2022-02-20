@@ -24,7 +24,8 @@ const Movies = () => {
   useEffect(()=>{
 
     fetchMovies();
-  },[page,genreforURL])
+    // eslint-disable-next-line
+  },[page,genreforURL]);
   return (
     <div>
         <span className='pageTitle'>Movies</span>
