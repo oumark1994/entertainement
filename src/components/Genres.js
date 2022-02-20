@@ -25,7 +25,7 @@ const Genres = ({
         return ()=>{
             setGenres({})
         };
-    },[]);
+    });
   return (
     <div style={{padding:'6px 0'}}>
       {selectedGenres && selectedGenres.map((genre)=><Chip label={genre.name} size="small" style={{margin:2}} color="primary" onDelete={()=>handleRemove(genre)} key={genre.id} clickable/>)}
